@@ -3,11 +3,13 @@ using namespace std;
 
 void print(int n)
 {
-    while(n!=0)
+    if(n!=0)
     {
-        cout<<n<<endl;
-        n--;
+ cout<<n<<endl;;
+        print(n-1);
     }
+       
+   
 }
 int main()
 {
