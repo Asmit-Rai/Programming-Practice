@@ -1,15 +1,13 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
 void print(int n)
 {
-    if(n!=0)
+    if (n != 0)
     {
- cout<<n<<endl;;
-        print(n-1);
+        cout << n << endl;
+        print(n - 1);
     }
-       
-   
 }
 int main()
 {
